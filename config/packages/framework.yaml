@@ -2,7 +2,9 @@
 framework:
     secret: '%env(APP_SECRET)%'
     form:
-        csrf_protection: x-csrf-token
+        csrf_protection:
+            cookie_name: x-csrf-token
+            check_header: true
 
     # Note that the session will be started ONLY if you read or write from it.
     session: true
