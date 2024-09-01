@@ -1,5 +1,11 @@
 {
     "controllers": {
+        "@symfony/framework-bundle": {
+            "csrf-double-submit": {
+                "enabled": true,
+                "fetch": "lazy"
+            }
+        },
         "@symfony/ux-turbo": {
             "turbo-core": {
                 "enabled": true,

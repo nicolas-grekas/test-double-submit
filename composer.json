@@ -104,5 +104,23 @@
         "symfony/phpunit-bridge": "^7.1",
         "symfony/stopwatch": "7.2.*",
         "symfony/web-profiler-bundle": "7.2.*"
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "~/Code/symfony/src/Symfony/Component/AssetMapper"
+        },
+        {
+            "type": "path",
+            "url": "~/Code/symfony/src/Symfony/Bundle/FrameworkBundle"
+        },
+        {
+            "type": "path",
+            "url": "~/Code/symfony/src/Symfony/Component/Form"
+        },
+        {
+            "type": "path",
+            "url": "~/Code/symfony/src/Symfony/Component/Security/Csrf"
+        }
+    ]
 }
